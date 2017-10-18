@@ -1,4 +1,8 @@
-
+/* Taylor Nguyen
+ * AP Compsci period 1
+ * 15 October 2017
+ * Quadratic does the calculations which will be printed in quadratic client
+ */
 public class Quadratic {
 	public static double discriminant(double a, double b, double c) {
 	    return (b * b) - (4 * a * c);

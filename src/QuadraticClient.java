@@ -1,3 +1,8 @@
+/* Taylor Nguyen
+ * AP CompSci period 1
+ * 15 October 2017
+ * this prints the description of the quadratic from the method quadraticDescriber
+ */
 import java.util.Scanner;
 public class QuadraticClient {
 
