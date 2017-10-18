@@ -25,18 +25,18 @@ public class QuadraticClient {
 		System.out.println();
 		System.out.println("Do you want to keep going? Type q to quit, yes to continue");
 		String done = scans.next();
-		if(!done.equals("q") && !done.equals("no")) {
-			System.out.println("error. please type yes or no");
+		if(!done.equals("q") && !done.equals("yes")) {
+			System.out.println("error. please type yes or q");
 		}
 		if(done.equals("yes")) {
-			exit = true;
-		} else if(done.equals("q")) {
 			exit = false;
+		} else if(done.equals("q")) {
+			exit = true;
 		} 
 		
 		} while (!exit);
 		
-		System.out.println("thanks for mathing with me");
+		System.out.println("thanks for doing math with me, bye bye!");
 
 	}
 
